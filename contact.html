@@ -1,0 +1,47 @@
+<html>
+    <header class="site-header">
+        <h1 class="site-title"><a href="index.html">Mare Okoigun</a></h1>
+        <nav aria-label="Primary">
+          <ul class="nav">
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="project.html">Projects</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+          </ul>
+        </nav>
+      </header>
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact — Mare Okoigun</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h2>Contact Me</h2>
+    <form action="#" method="post" novalidate aria-describedby="form-help">
+      <p id="form-help">Fields marked * are required.</p>
+
+      <label for="name">Name *</label>
+      <input id="name" name="name" type="text" required minlength="2">
+
+      <label for="email">Email *</label>
+      <input id="email" name="email" type="email" required inputmode="email" placeholder="you@example.com">
+
+      <label for="phone">Cell No. *</label>
+      <input id="phone" name="phone" type="tel" required inputmode="tel"
+             pattern="^\+?\d{7,15}$" placeholder="+1XXXXXXXXXX"
+             title="Enter digits only, 7–15 numbers; you may start with +">
+
+      <label for="comments">Comments *</label>
+      <textarea id="comments" name="comments" required minlength="10" rows="5"></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </main>
+  
+    <footer class="site-footer">
+        <p>Contact: <a href="mailto:youremail@example.com">mare.okoigun@gmail.com</a></p>
+        <p>&copy; <span id="year"></span> Mare Okoigun</p>
+      
+    </footer>
+   </body>
+</html>
