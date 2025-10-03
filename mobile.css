@@ -1,0 +1,30 @@
+@media (max-width: 600px) {
+    .site-title {
+      font-size: 1.1rem;
+      text-align: center;
+    }
+  
+    .nav {
+      display: block;
+      text-align: center;
+    }
+  
+    .nav li {
+      display: block;
+      margin: 0.5rem 0;
+    }
+  
+    .hero {
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+    }
+  
+    .projects {
+      padding: 0.5rem;
+    }
+  
+    form {
+      padding: 0 1rem;
+    }
+  }
+  

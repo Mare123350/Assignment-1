@@ -1,0 +1,35 @@
+@media (min-width: 993px) {
+    .site-header,
+    .site-footer {
+      padding: 2rem 3rem;
+    }
+  
+    .site-title {
+      font-size: 2rem;
+    }
+  
+    .nav {
+      display: flex;
+      justify-content: flex-end;
+      gap: 2rem;
+    }
+  
+    .hero {
+      padding: 4rem 3rem;
+      font-size: 1.2rem;
+      max-width: 900px;
+      margin: 2rem auto;
+    }
+  
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+    }
+  
+    form {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+  }
+  

@@ -1,15 +1,15 @@
 :root {
-    --bg: #000000;      /* dark red */
-    --bg-2: #5B0E16;    /* deep maroon */
-    --fg: #F2F2F2;      /* light gray text */
-    --accent: #044040;  /* teal */
-    --accent-2: #f3e0e0;/* bright red */
+    --bg: #000000;      
+    --bg-2: #5B0E16;    
+    --fg: #F2F2F2;      
+    --accent: #044040;  
+    --accent-2: #f3e0e0;
   }
   
   * { box-sizing: border-box }
   
   body {
-    margin: 10;
+    margin:10px;
     font-family: 'Times New Roman', Times, serif, Arial, sans-serif;
     line-height: 1.5;
     color: var(--fg);
@@ -17,7 +17,7 @@
   }
   
   a {
-    color: var(--accent-2); /* links stand out in red */
+    color: var(--accent-2); 
   }
   
   .site-header, .site-footer {
@@ -47,23 +47,23 @@
   }
   
   main {
-    min-height: 100vh;  /* full viewport height */
+    min-height: 100vh;  
     display: flex;
-    justify-content: center;  /* vertical center */
-    align-items: center;      /* horizontal center */
+    justify-content: center;  
+    align-items: center;      
   }  
   
   main {
-    flex: 1;                /* take available space */
+    flex: 1;                
     display: flex;
     flex-direction: column;
-    justify-content: center; /* vertical center */
-    align-items: center;     /* horizontal center */
+    justify-content: center; 
+    align-items: center;     
     text-align: center;
   }
   
   
-  /* Hero Section */
+  
   .hero {
     padding: 3rem 1rem;
     background: linear-gradient(45deg, var(--accent), var(--accent-2));
@@ -79,7 +79,7 @@
     border-radius: .375rem;
   }
   
-  /* Projects */
+  
   .projects { display: block }
   .project {
     background: rgba(255,255,255,.08);
@@ -89,15 +89,15 @@
     border-radius: .5rem;
   }
   
-  /* Forms */
+  
   form { max-width: 600px }
   label { display: block; margin-top: 1rem }
   input, textarea, button {
     width: 100%;
     padding: .75rem;
     border-radius: .375rem;
-    border: 1px solid #5B0E16; /* maroon border */
-    background: #044040;       /* teal background */
+    border: 1px solid #5B0E16; 
+    background: #044040;       
     color: var(--fg);
   }
   button {
@@ -122,11 +122,11 @@
     font-family: 'Times New Roman', Times, serif, Arial, sans-serif;
     line-height: 1.6;
     color: var(--fg);
-    background: #000;  /* keeps background clean */
+    background: #000;  
   }
   
   #wrapper {
     min-height: 90%;
     display: grid;
-    grid-template-rows: auto 1fr auto; /* header, content, footer */
+    grid-template-rows: auto 1fr auto; 
   }
