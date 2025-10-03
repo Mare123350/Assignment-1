@@ -1,46 +1,65 @@
 <!DOCTYPE html>
-<html>
-    <header class="site-header">
-        <h1 class="site-title"><a href="index.html">Mare Okoigun</a></h1>
-        <nav aria-label="Primary">
-          <ul class="nav">
-            <li><a href="about.html">About Me</a></li>
-            <li><a href="project.html">Projects</a></li>
-            <li><a href="contact.html">Contact Me</a></li>
-          </ul>
-        </nav>
-      </header>      
+<html lang="en">
 <head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
   <title>About — Mare Okoigun</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="About page for Mare Okoigun's portfolio">
+  <meta name="author" content="Mare Okoigun">
+
+  
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="mobile.css" media="(max-width:600px)">
   <link rel="stylesheet" href="tablet.css" media="(min-width:601px) and (max-width:992px)">
   <link rel="stylesheet" href="laptop.css" media="(min-width:993px)">
- </head>
+</head>
 <body>
-  <main>
-    <article>
-      <h2>About Me</h2>
-      <figure>
-        <img src="Mare.JPG" alt="Portrait of Mare Okoigun" width="120">
-        <figcaption>Mare Okoigun</figcaption>
-      </figure>
-      <p>I’m a Networking and IT security specialist. I'm a part time model and I love playing soccer</p>
+  <div id="wrapper">
 
-      <h3>Introduction Video</h3>
-      <video controls preload="metadata" poster ="Poster.png" width="120">
-        <source src="IMG_3070.mp4" type="video/mp4" width="120">
-        <a class="btn" href="contact.html">Contact me</a>
     
-      </video>
-      
-    </article>
-  </main>
+    <header class="site-header">
+      <h1 class="site-title"><a href="index.html">Mare Okoigun</a></h1>
+      <nav aria-label="Primary">
+        <ul class="nav">
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="project.html">Projects</a></li>
+          <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    
+    <main>
+      <article>
+        <h2>About Me</h2>
+        <figure>
+          <img src="Mare.JPG" alt="Portrait of Mare Okoigun" width="200">
+          <figcaption>Mare Okoigun</figcaption>
+        </figure>
+        <p>I’m a Networking and IT security specialist. I'm a part-time model and I love playing soccer.</p>
+
+        <h3>Introduction Video</h3>
+        <video controls preload="metadata" poster="Poster.png" width="400">
+          <source src="IMG_3070.mp4" type="video/mp4">
+        
+          Your browser does not support the video tag.
+        </video>
+        
+        <p><a class="btn" href="contact.html">Contact me</a></p>
+      </article>
+    </main>
+
+  </div>
+
   
   <footer class="site-footer">
-    <p>Contact: <a href="mailto:youremail@example.com">mare.okoigun@gmail.com</a></p>
+    <p>Contact: <a href="mailto:mare.okoigun@gmail.com">mare.okoigun@gmail.com</a></p>
     <p>&copy; <span id="year"></span> Mare Okoigun</p>
   </footer>
+
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>

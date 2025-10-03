@@ -1,47 +1,58 @@
 <!DOCTYPE html>
-<html>
-    <header class="site-header">
-        <h1 class="site-title"><a href="index.html">Mare Okoigun</a></h1>
-        <nav>
-          <ul class="nav">
-            <li><a href="about.html">About Me</a></li>
-            <li><a href="project.html">Projects</a></li>
-            <li><a href="contact.html">Contact Me</a></li>
-          </ul>
-        </nav>
-      </header>
+<html lang="en">
 <head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
   <title>Home — Mare Okoigun</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="mobile.css" media="(max-width:600px)">
-    <link rel="stylesheet" href="tablet.css" media="(min-width:601px) and (max-width:992px)">
-    <link rel="stylesheet" href="laptop.css" media="(min-width:993px)">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio website for Mare Okoigun">
+  <meta name="author" content="Mare Okoigun">
 
+  
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mobile.css" media="(max-width:600px)">
+  <link rel="stylesheet" href="tablet.css" media="(min-width:601px) and (max-width:992px)">
+  <link rel="stylesheet" href="laptop.css" media="(min-width:993px)">
 </head>
 <body>
-    <div id="wrapper">
-  
-      <main>
-        <section class="hero">
-          <h2>Hi, I’m Mare — student & builder</h2>
-          <p>I enjoy Networking and IT, web dev, and applied problem-solving.</p>
-          <a class="btn" href="project.html">See my projects</a>
-        </section>
-  
-        <article>
-          <h3>What I’m working on</h3>
-          <p>ROBOTICS WITH ROS 2 AND A FULL-STACK FOOD ORDERING APP PROTOTYPE.</p>
-        </article>
-      </main>
-  
-      
-    </div>
-  
-    <footer class="site-footer">
-        <p>Contact: <a href="mailto:youremail@example.com">mare.okoigun@gmail.com</a></p>
-        <p>&copy; <span id="year"></span> Mare Okoigun</p>
-      </footer>
+  <div id="wrapper">
+    
+    
+    <header class="site-header">
+      <h1 class="site-title"><a href="index.html">Mare Okoigun</a></h1>
+      <nav>
+        <ul class="nav">
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="project.html">Projects</a></li>
+          <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+      </nav>
+    </header>
 
+    
+    <main>
+      <section class="hero">
+        <h2>Hi, I’m Mare — student & builder</h2>
+        <p>I enjoy Networking and IT, web dev, and applied problem-solving.</p>
+        <a class="btn" href="project.html">See my projects</a>
+      </section>
+
+      <article>
+        <h3>What I’m working on</h3>
+        <p>ROBOTICS WITH ROS 2 AND A FULL-STACK FOOD ORDERING APP PROTOTYPE.</p>
+      </article>
+    </main>
+
+  </div>
+
+
+  <footer class="site-footer">
+    <p>Contact: <a href="mailto:mare.okoigun@gmail.com">mare.okoigun@gmail.com</a></p>
+    <p>&copy; <span id="year"></span> Mare Okoigun</p>
+  </footer>
+
+  
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
